@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klothing</title>    
+    <link rel="stylesheet" href="styleProyecto.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+         <img src="img/logo.png" alt="Logo de la compañia">
+           <h2 class="logo-nombre">Klothing</h2>
+        </a>
+        <nav>
+           <a href="" class="nav-link">Inicio</a>
+           <a href="" class="nav-link">Sobre Nosotros ▼</a>
+           <a href="" class="nav-link">Contacto ▼</a>
+        </nav>
+     </header>
+     
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Lista de productos -->
+        <div class="product-list">
+            <div class="product">
+                <img src="img/Camiseta.jpg" alt="Top I love NewYork">
+                <div class="product-details">
+                    <div class="product-name">Top I love NewYork</div>
+                    <div class="product-price">$15.99</div>
+                </div>
+                <button class="add-to-cart-btn" onclick="addToCart('Top I love NewYork', 15.99, 'img/Camiseta.jpg')">Añadir al carrito</button>
+            </div>
+
+            <div class="product">
+                <img src="img/Pantalon.jpg" alt="Pantalón tiro bajo rojo">
+                <div class="product-details">
+                    <div class="product-name">Pantalón tiro bajo rojo</div>
+                    <div class="product-price">$19.99</div>
+                </div>
+                <button class="add-to-cart-btn" onclick="addToCart('Pantalón tiro bajo rojo', 19.99, 'img/Pantalon.jpg')">
+                    Añadir al carrito
+                </button>
+            </div>
+
+            <div class="product">
+                <img src="img/Shorts.jpg" alt="Shorts">
+                <div class="product-details">
+                    <div class="product-name">Shorts</div>
+                    <div class="product-price">$18.99</div>
+                </div>
+                <button class="add-to-cart-btn" onclick="addToCart('Shorts', 18.99, 'img/Shorts.jpg')">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Carrito de compras -->
+        <div class="cart-container">
+            <div id="cart-items">
+                <!-- Los artículos del carrito se agregarán aquí -->
+            </div>
+            <div class="cart-total" id="total-price">
+                Total: $0.00
+            </div>
+            <button class="checkout-btn" onclick="checkout()">Proceder a la compra</button>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="img/Pink pastel moving strips background.gif" alt="Banner">
+    </div>
+    
+
+</body>
+</html>

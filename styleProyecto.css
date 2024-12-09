@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffabdb;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    width: 115px;
+}
+
+.product-price {
+    color: #e74c3c;
+}
+
+.add-to-cart-btn {
+    padding: 8px 16px;
+    background-color: #ffabdb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #ff35a7;
+}
+
+.cart-container {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.cart-item-remove {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.cart-total {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffabdb;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background-color: #ffabdb;
+}
+
+img {
+    width: 100%;
+    /* Ajusta el ancho al 100% del contenedor */
+    height: auto;
+    /* Mantiene la proporción original */
+}
+
+div {
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    width: 110px;
+    margin-right: 10px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover {
+    color: #ff8acc;
+}
+
+h2:hover {
+    color: #ff8acc;
+}
+
+.banner {
+    height: 200px;
+}
+
+.banner img {
+    height: 200px;
+}
